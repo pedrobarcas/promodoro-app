@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.headerContent {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a:hover {
+  border-bottom: 2px solid var(--main-color);
+  transition: all 1s ease-in-out;
+}

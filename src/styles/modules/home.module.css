@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+}
+
+form input {
+  border-bottom: 1px solid gray;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border: 0.5rem solid var(--hr-color);
+  border-radius: 30px;
+  padding: 2rem;
+}
+
+section span,
+section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 4rem;
+  border-radius: 5px;
+  background-color: var(--task-background);
+  font-family: var(--roboto-mono);
+  font-size: 2.5rem;
+}
+
+section div {
+  background-color: transparent !important;
+  color: var(--main-color);
+}
+
+button {
+  width: 30%;
+  padding: 1rem;
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
+
+form input {
+  width: 5rem;
+}
